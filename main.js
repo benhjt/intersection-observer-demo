@@ -28,7 +28,9 @@ const renderUsers = (userList) => {
     let contact = userList[i];
     userListMarkup += `
       <li class="contact">
-        <img class="contact__picture" data-src="${contact.picture.thumbnail}">
+        <span class="contact__picture-container">
+          <img class="contact__picture" data-src="${contact.picture.thumbnail}">
+        </span>
         <span class="contact__info">${capitalize(contact.name.first)} ${capitalize(contact.name.last)}</span>
       </li>
     `;

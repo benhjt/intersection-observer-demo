@@ -96,7 +96,7 @@
         padding: 5px 0;
       }
 
-      .contact__picture {
+      .contact__picture-container {
         background-color: #efefef;
         border-radius: 50%;
         height: 48px;
@@ -105,6 +105,13 @@
         pointer-events: none;
         transition: opacity 0.3s;
         width: 48px;
+      }
+
+      .contact__picture {
+        border-radius: 50%;
+        opacity: 1;
+        pointer-events: none;
+        transition: opacity 0.3s;
       }
 
       .contact__picture[data-src] {
