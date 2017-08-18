@@ -18,4 +18,6 @@ See [caniuse.com](https://caniuse.com/#feat=intersectionobserver)
 
 ## Further info
 
+[This demo in action](https://benhjt.github.io/intersection-observer-demo/)
+
 [Intersection Observer MDN](https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API)
